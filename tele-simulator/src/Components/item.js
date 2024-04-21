@@ -1,13 +1,16 @@
 import styled from "styled-components";
 
-export default styled.div`
+
+const Item = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 250px;
-  width: 100%;
+  width: 300px; 
+  height: 150px; 
   background-color: #00008B;
   color: #fff;
   margin: 0 15px;
-  font-size: 4em;
+  font-size: 2em; /* Decrease font size */
 `;
+
+export default Item;
