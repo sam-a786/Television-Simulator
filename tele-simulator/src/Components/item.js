@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-
-const Item = styled.div`
+const ItemContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,5 +12,13 @@ const Item = styled.div`
   margin: 0 15px;
   font-size: 2em; /* Decrease font size */
 `;
+
+const Item = ({ children }) => {
+  return (
+    <ItemContainer>
+      {children}
+    </ItemContainer>
+  );
+};
 
 export default Item;
