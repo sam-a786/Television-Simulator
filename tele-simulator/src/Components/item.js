@@ -5,8 +5,8 @@ const Item = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px; 
-  height: 150px; 
+  width: 250px; 
+  height: 250px; 
   background-color: #00008B;
   color: #fff;
   margin: 0 15px;
