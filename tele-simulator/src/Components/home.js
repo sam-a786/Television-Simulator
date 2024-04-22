@@ -15,6 +15,7 @@ import DP2 from '../Images/dp2.jpg';
 
 const Home = () => {
   return (
+    <div className="home-background" style={{ backgroundColor: 'black' }}>
     <div className="home">
       
       
@@ -61,6 +62,7 @@ const Home = () => {
       
       <a href="https://www.imdb.com/title/tt5463162/?ref_=fn_al_tt_3"><img src={DP2} alt="Deadpool2" className="img" style={{ width: '250px', height: '250px', paddingBottom: '100px' }}/></a>
       
+      </div>
       </div>
     </div>
   );
