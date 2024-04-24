@@ -27,7 +27,7 @@ const Home = () => {
     }}>
 
       {/* Row for "Up next" text */}
-      <div className="row0" style={{paddingTop: '950px', paddingLeft: '100px'}}>
+      <div className="row0" style={{ paddingTop: '950px', paddingLeft: '200px', fontWeight: 900, fontSize: '24px' }}>
         <p>Up next</p>
       </div>
 
