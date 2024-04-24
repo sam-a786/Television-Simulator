@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+//the styling for each item in the carousel
 const ItemContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -13,7 +13,7 @@ const ItemContainer = styled.div`
   font-size: 2em; /* Decrease font size */
 `;
 
-const Item = ({ children }) => {
+const Item = ({ children }) => { //"children" wrapped in an item container that encapsulates the style, so the styling remains consistent for every item
   return (
     <ItemContainer>
       {children}
